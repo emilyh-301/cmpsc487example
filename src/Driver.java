@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Driver {
 
     public static void main(String[] args){
@@ -8,8 +10,12 @@ public class Driver {
     }
 
     public static String favoriteAnimal(){
-        // TODO: ask the user what their favorite animal is and return their answer
-        return "";
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("What is your favorite animal?");
+
+        String favoriteAnimal = scan.nextLine();
+        return favoriteAnimal;
     }
 
 }
