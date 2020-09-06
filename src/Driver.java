@@ -4,9 +4,10 @@ public class Driver {
 
     public static void main(String[] args){
 
-        System.out.println("Hello software engineering student");
+        System.out.println("Hello software engineering student!");
 
         String favAnimal = favoriteAnimal();
+        System.out.println("*** " + favAnimal + " ***");
     }
 
     public static String favoriteAnimal(){
